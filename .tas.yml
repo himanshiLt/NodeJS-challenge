@@ -1,5 +1,5 @@
 --- 
-framework: mocha
+fr: mocha
 postMerge: 
   pattern: 
     - tests/**/*.js
@@ -9,4 +9,3 @@ preMerge:
 preRun: 
   command: 
     - "npm ci"
-
